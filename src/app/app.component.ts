@@ -15,4 +15,9 @@ export class AppComponent {
       if x%2 === 0
       return x
   }
+
+  get numbersOnly():Input[]{
+    if Input=text,
+    return "Number[] is not a valid number!"
+  }
 }
