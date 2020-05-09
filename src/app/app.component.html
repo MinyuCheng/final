@@ -16,12 +16,24 @@
   <div style="display: inline-flexbox;">
     <a style="font: 16pt; text-align: center;">Number: 1</a>
     <div class="clear"></div>
-    <input type="number" style="align-self: center;" min="2" max="100" />
+    <input
+      type="number"
+      style="align-self: center;"
+      data-ng-change="numbersOnly()"
+      min="2"
+      max="100"
+    />
   </div>
   <div style="display: inline-flexbox;">
     <a style="font: 16pt; text-align: center;">Number: 2</a>
     <div class="clear"></div>
-    <input type="text" style="align-self: center;" min="2" max="100" />
+    <input
+      type="text"
+      style="align-self: center;"
+      data-ng-change="numbersOnly()"
+      min="2"
+      max="100"
+    />
   </div>
   <div>
     <button type="submit" class="btn-primary-warning" (click)="submitNumber()">
