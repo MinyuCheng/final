@@ -7,7 +7,7 @@ import { Component, Input } from "@angular/core";
 })
 export class AppComponent {
   title = "final";
-
+  
   get numbers(): Input[] {
     let i = Number1, j = Number2;
     for i <= j,
